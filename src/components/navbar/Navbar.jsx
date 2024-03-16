@@ -1,26 +1,48 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const threshold = 50;
+
+      if (scrollPosition > threshold) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+ 
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
+    <div className={`gpt3__navbar ${isScrolled ? 'scrolled' : ''}`}>
+      <div className="gpt3__navbar-links slide-in-top">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <a href="#home">
+            <img src={logo} />
+          </a>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">What is GPT3?</a></p>
-          <p><a href="#possibility">Open AI</a></p>
           <p><a href="#features">Case Studies</a></p>
+          <p><a href="#possibility">Open AI</a></p>
           <p><a href="#blog">Library</a></p>
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="gpt3__navbar-sign slide-in-right">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>

@@ -2,8 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: fixed;
+    width: 100%;
     padding: 2rem 6rem;
+    z-index: 10000000;
+}
+
+.gpt3__navbar.scrolled {
+    background-color: var(--color-bg);
+    transition: 300ms ease;
 }
 
 .gpt3__navbar-links {

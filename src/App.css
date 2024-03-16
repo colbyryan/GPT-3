@@ -72,6 +72,84 @@ a {
   }
 }
 
+/* Slide-in animation from left */
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation: slide-in-left 1s ease forwards;
+}
+
+/* Slide-in animation from top */
+@keyframes slide-in-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-top {
+  animation: slide-in-top 1s ease forwards;
+}
+
+/* Slide-in animation from right */
+@keyframes slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-right {
+  animation: slide-in-right 1s ease forwards;
+}
+
+/* Slide-in animation from bottom */
+@keyframes slide-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-bottom {
+  animation: slide-in-bottom 1s ease forwards;
+}
+
+/* Smooth Fade-in animation */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 600ms ease-in-out; 
+}
+
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
