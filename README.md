@@ -27,9 +27,15 @@ To sharpen my React.js, CSS, and Express.js skills in building modern responsive
 ---
 
 ### Showcase
+
+## Desktop 
 ![Home Page Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png)
+
+## Mobile
 ![Home Page Mobile Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile.png)
 ![Home Page Mobile Menu Interface Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile-menu.png)
+
+## Tablet
 ![Home Page Image Tablet](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_tablet.png)
 
 
