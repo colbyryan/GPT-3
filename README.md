@@ -6,12 +6,16 @@
 
 ### Table of Contents
 
-- [About This Project](#about this project)
+- [About This Project](#about)
 - [Goal of the Project](#goal)
 - [Showcase](#showcase)
 - [Technologies](#technologies)
 - [Author Info](#author-info)
-### About the Project
+
+---
+
+
+### About
 
 This is a follow-along project in which I created a modern responsive react.js website, however I continued on this idea by
 adding my own advanced CSS and implemented a local API to render data to the website using Express.js
@@ -23,11 +27,14 @@ To sharpen my React.js, CSS, and Express.js skills in building modern responsive
 ---
 
 ### Showcase
-![Home Page Image]([https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png)))
+![Home Page Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png))
 ![Home Page Mobile Image]((https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile.png)))
 ![Home Page Mobile Menu Interface Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile-menu.png))
 ![Home Page Image Tablet](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_tablet.png))
+
+
 ---
+
 
 #### Technologies
 
@@ -37,7 +44,9 @@ To sharpen my React.js, CSS, and Express.js skills in building modern responsive
 - Git/Github
 - Postman
 
+
 ---
+
 
 ## Author Info
 
