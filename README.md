@@ -1,6 +1,6 @@
 # GPT-3 
 
-![Home Page Image]([https://github.com/colbyryan/EasyCooking/blob/main/EasyCooking/wwwroot/Images/EasyCookingHomePage.PNG?raw=t](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png)))
+![Home Page Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png))
 
 --- 
 
@@ -23,10 +23,10 @@ To sharpen my React.js, CSS, and Express.js skills in building modern responsive
 ---
 
 ### Showcase
-![Home Page Image]([https://github.com/colbyryan/EasyCooking/blob/main/EasyCooking/wwwroot/Images/EasyCookingHomePage.PNG?raw=t](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png)))
-![Home Page Mobile Image]([https://github.com/colbyryan/EasyCooking/blob/main/EasyCooking/wwwroot/Images/EasyCookingHomePage.PNG?raw=t](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile.png)))
-![Home Page Mobile Menu Interface Image]([https://github.com/colbyryan/EasyCooking/blob/main/EasyCooking/wwwroot/Images/EasyCookingHomePage.PNG?raw=t](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile-menu.png)))
-![Home Page Image Tablet]([https://github.com/colbyryan/EasyCooking/blob/main/EasyCooking/wwwroot/Images/EasyCookingHomePage.PNG?raw=t](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_tablet.png)))
+![Home Page Image]([https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage__screenshot.png)))
+![Home Page Mobile Image]((https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile.png)))
+![Home Page Mobile Menu Interface Image](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_mobile-menu.png))
+![Home Page Image Tablet](https://github.com/colbyryan/GPT-3/blob/master/src/assets/homepage_tablet.png))
 ---
 
 #### Technologies
