@@ -55,6 +55,24 @@
     margin-bottom: 2rem;
 }
 
+/* Slide-in animation from left */
+@keyframes slide-in-left {
+    from {
+      transform: translateX(-150px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.possibility__fade-in {
+    animation: slide-in-left linear both;
+    animation-timeline: view();
+    animation-range: entry  cover 50%;
+    background-repeat: no-repeat;
+}
+
+
 @media screen and (max-width: 950px) {
     .gpt3__possibility {
         flex-direction: column;

@@ -117,7 +117,7 @@ a {
 }
 
 .slide-in-right {
-  animation: slide-in-right 1s ease forwards;
+  animation: slide-in-right linear;
 }
 
 /* Slide-in animation from bottom */
@@ -133,7 +133,7 @@ a {
 }
 
 .slide-in-bottom {
-  animation: slide-in-bottom 1s ease forwards;
+  animation: slide-in-bottom linear;
 }
 
 /* Smooth Fade-in animation */
@@ -147,7 +147,7 @@ a {
 }
 
 .fade-in {
-  animation: fade-in 600ms ease-in-out; 
+  animation: fade-in linear; 
 }
 
 @media screen and (max-width: 700px) {

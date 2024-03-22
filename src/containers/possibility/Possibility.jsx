@@ -43,7 +43,7 @@ const Possibility = () => {
   return (
     <div className="gpt3__possibility section__padding" id="possibility">
       <div ref={imageRef} className="gpt3__possibility-image">
-        <img src={possibilityImage} alt="possibility" className="fade-in" />
+        <img src={possibilityImage} alt="possibility" className="possibility__fade-in" />
       </div>
       <div ref={contentRef} className="gpt3__possibility-content">
         <h4 className="fade-in">Request Early Access to Get Started</h4>
